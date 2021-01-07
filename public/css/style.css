@@ -1,0 +1,238 @@
+ul li a{
+    font-weight: bold;
+}
+.box{
+    background-color: azure;
+    opacity: 90%;
+    padding: 10px;
+}
+.search{
+	background: #e6e6e6;
+}
+.cc{
+    font-size: 25px;
+    width: 4px;
+    color: green;
+    background-color: green ;
+
+}
+.pointer {cursor: pointer;}
+
+
+.middle {
+	position: relative;
+	width: 50%;
+	max-width: 500px;
+}
+
+.slider {
+	position: relative;
+	z-index: 1;
+	height: 10px;
+	margin: 0 15px;
+}
+.slider > .track {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-radius: 5px;
+	background-color: #b8b0c4;
+}
+.slider > .range {
+	position: absolute;
+	z-index: 2;
+	left: 25%;
+	right: 25%;
+	top: 0;
+	bottom: 0;
+	border-radius: 5px;
+	background-color: #9e76d6;
+}
+.slider > .thumb {
+	position: absolute;
+	z-index: 3;
+	width: 20px;
+    height: 20px;
+    margin-top: 4px;
+	background-color: #936acc;
+	border-radius: 50%;
+	box-shadow: 0 0 0 0 rgba(98,0,238,.1);
+	transition: box-shadow .3s ease-in-out;
+}
+.slider > .thumb.left {
+	left: 25%;
+	transform: translate(-15px, -10px);
+}
+.slider > .thumb.right {
+	right: 25%;
+	transform: translate(15px, -10px);
+}
+.slider > .thumb.hover {
+	box-shadow: 0 0 0 10px rgba(98,0,238,.1);
+}
+.slider > .thumb.active {
+	box-shadow: 0 0 0 40px rgba(88, 73, 122, 0.2);
+}
+
+input[type=range] {
+	position: absolute;
+	pointer-events: none;
+	-webkit-appearance: none;
+	z-index: 2;
+	height: 10px;
+	width: 100%;
+	opacity: 0;
+}
+input[type=range]::-webkit-slider-thumb {
+	pointer-events: all;
+	width: 30px;
+	height: 30px;
+	border-radius: 0;
+	border: 0 none;
+	background-color: red;
+	-webkit-appearance: none;
+}
+.for
+{
+    position: absolute;
+    background-color: rgb(11, 177, 163);
+    top: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    left: 3px;
+    padding: 3px;
+    color: white;
+}
+.plot
+{
+	background-color: #e6e6e6;
+}
+.pr
+{
+	border-bottom: 2px solid var(--gray);
+}
+strong.text-primary
+{
+	font-weight: bold;
+	font-size: 25px;
+}
+a{
+	color: black;
+	text-decoration: none;
+
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+
+}
+.farmland
+{
+	background-size: cover;
+	height: 650px;
+	width: 100%;
+
+
+}
+.far
+{
+
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	margin-top: 15%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.7);}
+
+
+
+.farmt
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+.condo
+{
+	margin-top:20px;
+
+
+}
+.con{
+	background-color: rgb(255, 255, 255);
+}
+.condoimg
+{
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+
+}
+.condodes
+{
+	position: absolute;
+	z-index: 300;
+	left: 20%;
+
+	right: 20%;
+	margin: auto;
+	top: 30%;
+	font-weight: bold;
+	display: block;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.bs{
+	background-color: rgb(97, 93, 93) !important;
+}
+.cardc
+{
+
+	border-radius: 0% !important;
+}
+div.info
+{
+    background-color: yellow;
+}
+.nav-foot{
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	margin: 0 !important;
+}
+.red{
+	color: red !important;
+}
+.container-fluid{
+	padding: 0 !important;
+}
+.nav-item{
+	padding-right: 12.5px;
+	padding-left: 12.5px;
+}
+a.nav-link{
+	color: rgb(255, 255, 255) !important;
+}
+ 
+a.nav-link:hover{
+	color: rgb(255, 240, 152) !important;
+}
+a.active1{
+	color: gold !important;
+}
+
+
+.navbar-brand{
+	padding-right: 20px;
+	padding-left: 20px;
+	color: rgb(255, 255, 255) !important;
+}
+.navbar-brand:hover{
+	color: black !important;
+}
+.bold{
+	font-weight: bold;
+	padding-right: 40px;
+}

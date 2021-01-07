@@ -1,0 +1,23 @@
+/* #custom-button {
+    padding: 4px;
+    color: white;
+    background-color:rgb(9, 170, 44);
+
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* #custom-button:hover {
+    background-color: #00b28f;
+  } */
+
+  #custom-text {
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+  }
+
+.header
+{
+    height: 50px !important;
+}
